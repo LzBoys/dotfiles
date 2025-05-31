@@ -1,0 +1,20 @@
+# My cool Dotfiles
+
+These are my dotfiles
+
+## Reqiurements
+
+computer
+
+### chezmoi
+```
+pacman -S chezmoi
+```
+
+## Install
+
+chezmoi init https://github.com/LzBoys/myDotfiles.git
+
+```
+chezmoi apply
+```
