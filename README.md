@@ -4,7 +4,7 @@ These are my dotfiles
 
 ## Reqiurements
 
-computerr
+computer
 
 ### chezmoi
 ```
