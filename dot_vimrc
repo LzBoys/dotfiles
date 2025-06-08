@@ -1,0 +1,4 @@
+set hidden
+set nocp
+filetype plugin on
+set tabstop=4

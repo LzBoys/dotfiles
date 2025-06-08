@@ -12,6 +12,11 @@ if status is-interactive
 	set binary (path change-extension '' $argv[1])
 	co $argv[1] && ./{$binary} & fg
     end
+	
+	if type rg &> /dev/null
+		set -gx FZF_DEFAULT_COMMAND 'rg --files'
+		set	-gx FZF_DEFAULT_OPTS '-m'
+	end
 
     starship init fish | source
 end
