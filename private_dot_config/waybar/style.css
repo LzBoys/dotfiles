@@ -21,7 +21,7 @@ window#waybar {
 #lock,
 #power {
 	background-image: linear-gradient(to bottom, #323d43 100%);
-	margin: 3px 6px 7px 6px;
+	margin: 6px 6px 9px 6px;
 	margin-right: 0px;
 	padding: 2px 8px;
 	color: #D3C6AA;
@@ -29,6 +29,12 @@ window#waybar {
 	border-style: none;
 	transition-duration: 120ms;
 
+}
+
+#tray:hover {
+	background-image: linear-gradient(to bottom, #83C092 100%);
+	transition-duration: 120ms;
+	color: #2D353B;
 }
 
 #pulseaudio:hover {

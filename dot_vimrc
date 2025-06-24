@@ -4,3 +4,4 @@ filetype plugin on
 set tabstop=4
 set relativenumber number
 set smartindent
+set shiftwidth=4
