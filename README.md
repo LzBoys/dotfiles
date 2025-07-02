@@ -16,7 +16,7 @@ pacman -S chezmoi
 use chezmoi
 
 ```
-$ chezmoi init --apply LzBoys
+chezmoi init --apply LzBoys
 ```
 
 enjoy
