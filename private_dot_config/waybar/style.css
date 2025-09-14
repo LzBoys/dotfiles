@@ -8,6 +8,7 @@
 
 window#waybar {
 	background-image: linear-gradient(to bottom, #232a2e 100%);
+	opacity: 0.95;
 	border-bottom: 3px solid #A7C080;
 	/*border-top: 3px solid #A7C080;*/
 	padding: 0px;
