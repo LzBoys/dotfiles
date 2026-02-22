@@ -5,7 +5,7 @@ if status is-interactive
     loadhyprland
 
     function co
-	g++ -std=c++17 -O2 -o (path change-extension '' $argv[1]) $argv[1] -Wall
+	g++ -Wl,-stack_size,0xF0000000 -std=c++17 -O2 -o (path change-extension '' $argv[1]) $argv[1] -Wall
     end
 
     function run
